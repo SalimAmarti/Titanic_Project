@@ -17,6 +17,11 @@ I used Kaggle's Titanic dataset.
 
 *https://www.kaggle.com/c/titanic/data*
 
+The code
+-------
+
+Click [here](https://github.com/SalimAmarti/Titanic_Project/blob/master/Titanic%20model.ipynb) to view the code.
+
 Executive Summary
 -------
 
@@ -58,10 +63,10 @@ Data cleaning
 - Removed 'Cabin' as it has more than 75% of null values
 - Fill null values in the 'Age' feature using the mean age per class
 - Removed 'PassengerId' which I didn't think would be of any use
-- Removed 'Name' even if I believe it would be interesting to perform some NLP here (let's put this as potential model improvement/exploration)
+- Removed 'Name' even if I believe it would be interesting to perform some NLP here
 - Performed one-hot encoding for 'Sex' as models need to be fed with numerical features
 - Created 'Family Size' and removed 'SibSp' and 'Parch'
-- Removed 'Ticket' even if we could maybe do something with that feature (let's keep that in mind for future improvements)
+- Removed 'Ticket' even if we could maybe do something with that feature
 - Performed one-hot encoding for 'Embarked'
 
 Model Building
