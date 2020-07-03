@@ -23,7 +23,7 @@ Executive Summary
 As it is my first project, I took an extensive time exploring the data. Then I went through the features during EDA to find helpful insights for the next steps of the analysis.
 I spent some time cleaning the data and tried several Machine Learning models to best predict the survivors.
 
-The best model was **Gradient Boosting** as I reached a score of **0.78947**.
+The best model was **Gradient Boosting** as the prediction reached an accuracy of **0.78947**.
 
 I was able to reach the **top 17%** of the Kaggle leaderboard!
 
@@ -47,6 +47,7 @@ Exploratory Data Analysis (EDA)
 | embarked | Port of Embarkation | C = Cherbourg, Q = Queenstown, S = Southampton |
 
 I looked at the distributions for the various numerical and categorical variables. Below are a few highlights of the interesting insights:
+
 
 Data cleaning
 -------
