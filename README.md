@@ -48,10 +48,15 @@ Exploratory Data Analysis (EDA)
 
 I looked at the distributions for the various numerical and categorical variables. Below are a few highlights of the interesting insights:
 
+<img src="null_values_plot.png" width="30%"> <img src="age_cat_plot.png" width="30%"> <img src="pclass_plot.png" width="30%"> <img src="corr_plot.png" width="30%">
+
+For more details, feel free to go through [the code](https://github.com/SalimAmarti/Titanic_Project/blob/master/Titanic%20model.ipynb).
 
 Data cleaning
 -------
 
+- Removed 'Cabin' as it has more than 75% of null values
+- Fill null values in the 'Age' feature using the mean age per class
 - Removed 'PassengerId' which I didn't think would be of any use
 - Removed 'Name' even if I believe it would be interesting to perform some NLP here (let's put this as potential model improvement/exploration)
 - Performed one-hot encoding for 'Sex' as models need to be fed with numerical features
@@ -62,5 +67,33 @@ Data cleaning
 Model Building
 -------
 
+First, I created dummy variables to transform categorical variables into numerical ones. Then, I split the data into train and test sets (70%-30%) in order to try several models before submitting them on Kaggle.
+
+I decided to use confusion matrices and classification reports to evaluate the models. It allowed me to evaluate the performance based on accuracy, precision, recall and f1-score.
+
+I tried different models:
+- **Multiple Linear Regression:** Baseline for the model
+- **Logistic Regression:** For this classification project, I thought this model would be effective.
+- **Decision Tree:** 
+- **Random Forest:**
+- **Gradient Boosting:**
+
+Model Performance
+-------
+
+The **Gradient Boosting** model outperformed the other models by far on Kaggle.
+
+| Model | Kaggle Accuracy |
+| --- | --- |
+| Multiple Linear Regression |0.75598|
+| Logistic Regression |0.76555|
+| Decision Tree |0.73684|
+| Random Forest |0.75598|
+| Gradient Boosting |0.78947|
+
 Next steps / Improvements
 -------
+
+- Use the 'Name' feature and extract the titles of the passengers (Mr, Mrs, Master...)
+- Use the 'Ticket' feature and check if it could be relevant
+- Try other Machine Learning models (SVM, Naive Bayes, K-Nearest Neighbors, XGBoost...)
