@@ -76,12 +76,12 @@ First, I created dummy variables to transform categorical variables into numeric
 
 I decided to use confusion matrices and classification reports to evaluate the models. It allowed me to evaluate the performance based on accuracy, precision, recall and f1-score.
 
-I tried different models:
-- **Multiple Linear Regression:** Baseline for the model
-- **Logistic Regression:** For this classification project, I thought this model would be effective.
-- **Decision Tree:** 
-- **Random Forest:**
-- **Gradient Boosting:**
+I tried several models well-suited for classification problems:
+- **Multiple Linear Regression**
+- **Logistic Regression**
+- **Decision Tree** 
+- **Random Forest**
+- **Gradient Boosting**
 
 Model Performance
 -------
