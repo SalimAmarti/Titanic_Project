@@ -30,9 +30,9 @@ I spent some time cleaning the data and tried several Machine Learning models to
 
 The best model was **Gradient Boosting** as the prediction reached an accuracy of **0.78947**.
 
-I was able to reach the **top 14%** of the Kaggle leaderboard!
+I was able to reach the **top 12%** of the Kaggle leaderboard!
 
-<img src="Kaggle_rank.png" width="30%">
+<img src="Kaggle_leaderboard_rank.png" width="30%">
 
 
 Exploratory Data Analysis (EDA)
