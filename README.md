@@ -1,5 +1,4 @@
-Titanic project - Kaggle
-=======
+![Header](https://github.com/SalimAmarti/Titanic_Project/blob/master/Titanic_header.gif)
 
 <img src="https://img5.goodfon.com/wallpaper/nbig/e/c9/zhivopis-art-titanik-tiianic-liudi-parokhod.jpg" width="60%">
 
